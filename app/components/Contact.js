@@ -7,6 +7,7 @@ class Contact extends React.Component {
         <h1>
           Contact
         </h1>
+        <div className="contact-form">
         <form action="https://formspree.io/davidtskaggs@gmail.com" method="POST">
         <input className="input" type="text" name="name" id="name" placeholder=" Full Name" />
 
@@ -18,6 +19,7 @@ class Contact extends React.Component {
           </textarea>
         <button type="submit" value="Send" className="button btn-block">Submit</button>
       </form>
+    </div>
     </div>
     )
   }
