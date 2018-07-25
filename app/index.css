@@ -29,6 +29,12 @@ a {
   font-weight: bold;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .nav li {
   margin-right: 15px;
 }

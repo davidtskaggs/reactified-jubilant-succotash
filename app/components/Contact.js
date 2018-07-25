@@ -4,8 +4,10 @@ var React = require('react');
 class Contact extends React.Component {
   render() {
     return(
-      <div>
-        Contact
+      <div className='home-container'>
+        <h1>
+          Contact
+        </h1>
       </div>
     )
   }

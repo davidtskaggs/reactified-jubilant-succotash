@@ -4,8 +4,10 @@ var React = require('react');
 class About extends React.Component {
   render() {
     return(
-      <div>
-        About
+      <div className='home-container'>
+        <h1>
+          About
+        </h1>
       </div>
     )
   }

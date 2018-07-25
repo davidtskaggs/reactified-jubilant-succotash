@@ -3,8 +3,8 @@ var React = require('react');
 class Home extends React.Component {
   render() {
     return(
-      <div>
-        Home
+      <div className='home-container'>
+        <h1>Home</h1>
       </div>
     )
   }
