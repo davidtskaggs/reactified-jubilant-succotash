@@ -7,11 +7,14 @@ var Router = ReactRouter.BrowserRouter;
 var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Nav = require('./Nav');
+var Social = require('./Social');
+
 
 
 class App extends React.Component {
   render() {
     return(
+      <div>
       <Router>
         <div className='container'>
           <Nav />
@@ -25,6 +28,8 @@ class App extends React.Component {
           </Switch>
         </div>
       </Router>
+        <Social />
+      </div>
     )
   }
 }

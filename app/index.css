@@ -33,8 +33,25 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 300px;
+  letter-spacing: 15px;
+  background-size: 60%;
 }
 
+.name-container {
+  width: 98%;
+  margin-top: 3%;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 300px;
+  letter-spacing: 15px;
+  background-size: 60%;
+}
 .nav li {
   margin-right: 15px;
 }
@@ -75,4 +92,30 @@ a {
 
 .button:active {
   transform: translateY(1px);
+}
+
+.contact-form {
+  margin: 5px;
+  padding: 20px;
+}
+
+.social {
+  margin: 5em;
+}
+
+.social-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  margin: 1px;
+  padding: 0 8px 0 8px;
 }
