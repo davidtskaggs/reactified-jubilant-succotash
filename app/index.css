@@ -116,6 +116,13 @@ a {
 }
 
 .icon {
+  color: black;
   margin: 1px;
   padding: 0 8px 0 8px;
+}
+
+a .icon:hover {
+  padding-bottom: 5px;
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
 }
