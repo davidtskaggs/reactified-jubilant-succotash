@@ -65,8 +65,8 @@ a {
   width: 200px;
   text-align: center;
   display: block;
-  padding: 7px 0;
-  margin: 10px auto;
+  padding: 10px 0;
+  margin: 20px auto;
 }
 .input {
   color: #0a0a0a;
@@ -96,10 +96,12 @@ a {
 
 .contact-form {
   margin: 5px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .social {
+  position: sticky;
+  justify-content: center;
   margin: 5em;
 }
 
@@ -109,13 +111,23 @@ a {
   justify-content: center;
   margin: 0;
 }
+
 .social-icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
+
 .icon {
+  color: black;
   margin: 1px;
   padding: 0 8px 0 8px;
+}
+
+
+a .icon:hover {
+  padding-bottom: 5px;
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
 }

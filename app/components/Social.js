@@ -10,10 +10,10 @@ class Social extends React.Component {
       <div className='social'>
         <h1 className="social-header">The Socials</h1>
         <div className="social-icons">
-          <h1 className="icon"><Linkedin /></h1>
-          <h1 className="icon"><Insta /></h1>
-          <h1 className="icon"><Twitter /></h1>
-          <h1 className="icon"><Fb /></h1>
+          <a href="https://www.linkedin.com/in/skaggsd/"><h1 className="icon"><Linkedin /></h1></a>
+          <a href="#"><h1 className="icon"><Insta /></h1></a>
+          <a href="#"><h1 className="icon"><Twitter /></h1></a>
+          <a href="#"><h1 className="icon"><Fb /></h1></a>
         </div>
       </div>
     )
