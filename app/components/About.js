@@ -5,9 +5,11 @@ class About extends React.Component {
   render() {
     return(
       <div className='home-container'>
-        <h1>
-          About
-        </h1>
+        <div className="grid">
+          <h1 id="header" className="t-stroke--shadow">
+            ABOUT
+          </h1>
+        </div>
       </div>
     )
   }

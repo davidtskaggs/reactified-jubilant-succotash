@@ -4,9 +4,11 @@ class Contact extends React.Component {
   render() {
     return(
       <div className='home-container'>
-        <h1>
-          Contact
-        </h1>
+        <div className="grid">
+          <h1 id="header" className="t-stroke t-shadow--halftone">
+            HELLO
+          </h1>
+        </div>
         <div className="contact-form">
         <form action="https://formspree.io/davidtskaggs@gmail.com" method="POST">
         <input className="input" type="text" name="name" id="name" placeholder=" Full Name" />

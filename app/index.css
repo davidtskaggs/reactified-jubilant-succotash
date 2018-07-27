@@ -99,6 +99,58 @@ a {
   padding: 15px;
 }
 
+.grid {
+  display: grid;
+}
+
+#header {
+  letter-spacing: 12px;
+  font-size: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.t-stroke {
+  color: transparent;
+  -moz-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 3px;
+  -moz-text-stroke-color: #212121;
+  -webkit-text-stroke-color: #212121;
+}
+
+.t-shadow--halftone {
+  position: relative;
+}
+
+.t-shadow--halftone::after {
+  content: "HELLO";
+  font-size: 120px;
+  letter-spacing: 12px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHElEQVQYV2NUVFT8f//+fUYGBgYGMAEDcA5IBQCKJQVmn76DhAAAAABJRU5ErkJggg==)
+    repeat;
+  background-size: 5x;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-stroke-width: 0;
+  -webkit-text-stroke-width: 0;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  z-index: -1;
+}
+
+.t-shadow {
+  text-shadow: 7px 7px #8dffcd;
+}
+
+.t-stroke--shadow {
+  color: #ff8b8b;
+  text-shadow: -3px 3px #212121, -3px -3px #212121, 3px -3px #212121,
+    3px 3px #212121, 6px 6px #8dffcd;
+}
+
 .social {
   position: sticky;
   justify-content: center;
@@ -118,16 +170,18 @@ a {
   justify-content: center;
 }
 
-
 .icon {
   color: black;
   margin: 1px;
   padding: 0 8px 0 8px;
 }
 
-
 a .icon:hover {
-  padding-bottom: 5px;
+  padding-bottom: 6px;
   background: linear-gradient(#1a1a1a,#0a0a0a);
   color: #fff;
+}
+
+h1.social-header {
+  padding-right: 10px;
 }
