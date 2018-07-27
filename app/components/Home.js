@@ -6,8 +6,9 @@ class Home extends React.Component {
       <div className='home-container'>
         <div className="grid">
           <h1 id="header" className="t-stroke t-shadow">
-            HELLO
+            HOWDY
           </h1>
+
       </div>
       <div className='name-container'>
         <h1>*Name*</h1>

@@ -178,7 +178,11 @@ a {
 
 
 a .icon:hover {
-  padding-bottom: 5px;
+  padding-bottom: 6px;
   background: linear-gradient(#1a1a1a,#0a0a0a);
   color: #fff;
+}
+
+h1.social-header {
+  padding-right: 10px;
 }
