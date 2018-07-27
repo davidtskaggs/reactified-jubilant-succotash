@@ -65,8 +65,8 @@ a {
   width: 200px;
   text-align: center;
   display: block;
-  padding: 7px 0;
-  margin: 10px auto;
+  padding: 10px 0;
+  margin: 20px auto;
 }
 .input {
   color: #0a0a0a;
@@ -96,7 +96,7 @@ a {
 
 .contact-form {
   margin: 5px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .social {
