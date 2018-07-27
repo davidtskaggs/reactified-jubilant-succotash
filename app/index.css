@@ -121,6 +121,7 @@ a {
 .t-shadow--halftone {
   position: relative;
 }
+
 .t-shadow--halftone::after {
   content: "HELLO";
   font-size: 120px;
@@ -169,13 +170,11 @@ a {
   justify-content: center;
 }
 
-
 .icon {
   color: black;
   margin: 1px;
   padding: 0 8px 0 8px;
 }
-
 
 a .icon:hover {
   padding-bottom: 6px;
